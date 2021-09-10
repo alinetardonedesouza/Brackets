@@ -11,6 +11,14 @@ public class App {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
+        System.out.println(" ----- VALIDADOR DE SÍMBOLOS ----- ");
+        System.out.println(" Esse programa tem como objetivo verificar se a entrada dos simbolos (){}[] é válida.");
+        readLines();
+        
+    }
+    
+    public static void readLines() throws FileNotFoundException, IOException {
+
         try {
 
             FileInputStream file = new FileInputStream("input.txt");
@@ -36,7 +44,7 @@ public class App {
 
         } catch (Exception e) {
 
-            System.out.println("Ocorreu um erro ler o arquivo de entrada: " + e);
+            System.out.println("Ocorreu um erro ao ler o arquivo de entrada: " + e);
         }
     }
 

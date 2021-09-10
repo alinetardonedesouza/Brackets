@@ -1,0 +1,8 @@
+()()()()() - Válido
+[][][][][] - Válido
+{}{}{}{}{}] - Inválido
+{{{}}})] - Inválido
+)){][] - Inválido
+{][]][ - Inválido
+(([])) - Válido
+{[[]]}() - Válido
