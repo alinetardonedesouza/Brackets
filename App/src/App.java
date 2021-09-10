@@ -11,8 +11,15 @@ public class App {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
-        System.out.println(" ----- VALIDADOR DE SÍMBOLOS ----- ");
+        System.out.println(" \n ------------------------------ VALIDADOR DE SÍMBOLOS ------------------------------\n ");
+
         System.out.println(" Esse programa tem como objetivo verificar se a entrada dos simbolos (){}[] é válida.");
+        System.out.println(" Coloque a entrada no arquivo input.txt ");
+        System.out.println(" Verifique o resultado no arquivo output.txt \n");
+
+        System.out.println(" -----------------------------------------------------------------------------------\n ");
+
+
         readLines();
         
     }
